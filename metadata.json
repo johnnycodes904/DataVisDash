@@ -1,0 +1,6 @@
+{
+  "name": "Data Visualizer Dashboard",
+  "description": "An interactive, multi-dimensional data visualization and exploration dashboard supporting custom datasets, CSV/JSON import, and diverse chart modalities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

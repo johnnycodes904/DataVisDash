@@ -428,6 +428,7 @@ export default function App() {
                     config={chart}
                     data={filteredData}
                     columns={currentDataset.columns}
+                    datasetName={currentDataset.name}
                     onToggleFullscreen={() => setFullscreenChartId(chart.id)}
                     onDelete={() => handleDeleteChart(chart.id)}
                     onDuplicate={() => handleDuplicateChart(chart)}
@@ -501,6 +502,7 @@ export default function App() {
                     config={studioChart}
                     data={filteredData}
                     columns={currentDataset.columns}
+                    datasetName={currentDataset.name}
                     isFullscreen={false}
                   />
                 </div>
@@ -537,6 +539,7 @@ export default function App() {
                   config={target}
                   data={filteredData}
                   columns={currentDataset.columns}
+                  datasetName={currentDataset.name}
                   isFullscreen={true}
                   onToggleFullscreen={() => setFullscreenChartId(null)}
                 />
